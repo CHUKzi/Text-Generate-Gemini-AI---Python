@@ -10,7 +10,7 @@ AI-powered text generation using Gemini. Python implementation for creative cont
 ```bash
 pip install -r requirements.txt
 ```
-## env
+## Environment
 
 API_KEY=your-key-here
 MODEL=gemini-pro 
@@ -20,7 +20,7 @@ To start the FastAPI application, run:
 uvicorn app:app --reload
 ```
 
-## TEST
+## Body
 ```bash
 {
   "request_type": "Description",
@@ -43,7 +43,7 @@ curl -X 'POST' \
 ## Response:
 ```bash
 {
-  "detailed_description": "AI-powered text generation is transforming the way creative content is produced, enabling faster, more efficient workflows."
+  "generated_text": "AI-powered text generation is transforming the way creative content is produced, enabling faster, more efficient workflows."
 }
 ```
 
